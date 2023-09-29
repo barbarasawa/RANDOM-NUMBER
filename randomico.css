@@ -1,0 +1,39 @@
+*{
+    font-family: arial;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(219, 211, 138);
+background: linear-gradient(90deg, rgb(107, 211, 147) 17%, rgb(113, 163, 201) 34%, rgb(223, 118, 191) 67%, rgb(208, 131, 241) 90%);
+}
+
+h1 {
+    color:  #fff;
+}
+
+.inicio h1 {
+    margin: 2rem;
+}
+
+.inicio span {
+    display: block;
+    border-radius: 2rem;
+    color: #fff;
+    font-size:  8rem;
+    margin-bottom: 1rem;
+
+}
+
+.inicio button {
+    padding: 0.5rem 1.0rem;
+    border: none;
+    background: lightblue;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+    font-size: 1.6rem;
+}
